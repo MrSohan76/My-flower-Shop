@@ -216,24 +216,65 @@ span {
     max-width: 342px;
 
 }
+
 /* latest deals  */
-#form-content{
+#form-content {
     margin: 128px 0;
 }
-.latest-deals{
+
+.latest-deals {
     background-image: url('../images/Rectangle\ 9.png');
-    padding:70px 0;
-    border-radius: 8px; 
+    padding: 70px 0;
+    border-radius: 8px;
 }
-#form-content form{
+
+#form-content form {
     max-width: 800px;
-  margin:22px auto;
-  display: flex;
-  gap: 16px;
+    margin: 22px auto;
+    display: flex;
+    gap: 16px;
 }
-#form-content form input[type="email"]{
-   flex-grow: 1;
-   padding: 10px;
-   border-radius: 8px;
-   border: none;
+
+#form-content form input[type="email"] {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* fotter */
+footer {
+   width: 100%;
+   background: #111010;
+}
+.foot{
+  width: 75%;
+}
+
+.footer-container {
+  width:auto; 
+  margin: 120px auto;
+ 
+}
+
+footer h2 {
+    color: #FFF;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.90);
+
+}
+
+.section-heading .shop {
+    color: #FFF;
+}
+
+.footer-container small {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px ;
+    font-weight: 400;
+    padding-bottom: 128px;
+   
 }
